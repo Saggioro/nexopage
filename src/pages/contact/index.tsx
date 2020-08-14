@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import Button from '../../components/Button';
 import logoImg from '../../assets/Sem Título-7.png';
 
 import { Container, Content, Background, Nav, Slogan } from './styles';

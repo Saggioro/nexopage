@@ -1,5 +1,4 @@
 import styled, { keyframes } from 'styled-components';
-import { transitions } from 'polished';
 
 const hoverColor = keyframes`
     0% {
