@@ -23,11 +23,17 @@ const Home: React.FC = () => {
           </Nav>
           <Slogan>
             <h1>Alguma ideia? Compartilhe conosco!</h1>
-            <p>Nos envie um e-mail.</p>
+            <p>Nos envie um e-mail ou deixe o seu contato.</p>
             <h1>Contatos:</h1>
             <p>
               <span> nexo.unifbv@oaehooo.br</span>{' '}
             </p>
+            <form action="submit" method="get">
+              <h3>Deixe aqui o seu contato</h3>
+              <input type="text" id="fname" name="fname" />
+              <input type="text" id="lname" name="lname" />
+              <button type="submit">Enviar</button>
+            </form>
           </Slogan>
         </Content>
       </Background>
