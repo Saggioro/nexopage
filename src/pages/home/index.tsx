@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Button from '../../components/Button';
-import logoImg from '../../assets/Sem Título-7.png';
+import logoImg from '../../assets/Nexo.png';
 
 import { Container, Content, Background, Nav, Slogan } from './styles';
 
@@ -13,7 +13,7 @@ const Home: React.FC = () => {
       <Background>
         <Content>
           <Nav>
-            <img src={logoImg} alt="nexo" />
+            <img src={logoImg} height={90} alt="nexo" />
             <div>
               <Link id="current" to="/">
                 Início
