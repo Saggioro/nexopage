@@ -25,7 +25,8 @@ const Home: React.FC = () => {
           <Slogan>
             <h1>Somos entusiastas da tecnologia!</h1>
             <p>
-              Estamos sempre procurando o que há de mais inovador para oferecer!
+              Somos um time que preza por criar, e desenvolver soluções que
+              transformam pessoas e negócios.
             </p>
             <Link to="/contact">
               <Button>Fale com a gente!</Button>

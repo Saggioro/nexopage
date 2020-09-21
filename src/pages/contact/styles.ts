@@ -3,6 +3,17 @@ import { shade } from 'polished';
 
 import contentBg from '../../assets/contentBg.png';
 
+const hoverColor = keyframes`
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+`;
 export const Container = styled.div`
   height: 100vh;
   min-width: 900px;
@@ -79,6 +90,53 @@ export const Slogan = styled.div`
   }
   span {
     color: #f0e68c;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+
+    h3 {
+      margin-top: 15px;
+    }
+
+    input {
+      margin-top: 10px;
+      height: 36px;
+      border-radius: 10px;
+      border: 0;
+      padding: 0 10px;
+      color: #fff;
+      width: 300px;
+      margin-top: 4px;
+      font-size: 20px;
+
+      -webkit-box-shadow: -7px 9px 21px -5px rgba(0, 0, 0, 0.91);
+      -moz-box-shadow: -7px 9px 21px -5px rgba(0, 0, 0, 0.91);
+      box-shadow: -7px 9px 21px -5px rgba(0, 0, 0, 0.91);
+    }
+
+    button {
+      background: linear-gradient(to bottom right, indigo, purple, blue);
+      height: 36px;
+      border-radius: 10px;
+      border: 0;
+      padding: 0 10px;
+      color: #fff;
+      width: 300px;
+      margin-top: 4px;
+      font-size: 20px;
+      background-size: 200% 200%;
+
+      &:hover {
+        animation: ${hoverColor} 2s;
+      }
+
+      -webkit-box-shadow: -7px 9px 21px -5px rgba(0, 0, 0, 0.91);
+      -moz-box-shadow: -7px 9px 21px -5px rgba(0, 0, 0, 0.91);
+      box-shadow: -7px 9px 21px -5px rgba(0, 0, 0, 0.91);
+    }
   }
 `;
 

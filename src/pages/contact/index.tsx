@@ -23,13 +23,10 @@ const Home: React.FC = () => {
           </Nav>
           <Slogan>
             <h1>Alguma ideia? Compartilhe conosco!</h1>
-            <p>Nos envie um e-mail ou ligue.</p>
+            <p>Nos envie um e-mail.</p>
             <h1>Contatos:</h1>
             <p>
               <span> nexo.unifbv@oaehooo.br</span>{' '}
-            </p>
-            <p>
-              <span>+99 (66) 4002-8922</span>{' '}
             </p>
           </Slogan>
         </Content>
